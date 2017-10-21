@@ -3,5 +3,5 @@ project(grid_simulation)
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(SOURCE_FILES log.h log.cpp)
+set(SOURCE_FILES log.h log.cpp main.cpp)
 add_executable(grid_simulation ${SOURCE_FILES})
